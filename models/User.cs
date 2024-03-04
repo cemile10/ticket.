@@ -134,7 +134,7 @@ public class User
 
             else if (number == 1)
             {
-                Console.WriteLine("Uçuş numarasını girin: ");
+                Console.WriteLine("Ucus nomresini daxil edin: ");
                 string ucusNumarasi = Console.ReadLine();
 
                 BiletModel seciliBilet = biletList.FirstOrDefault(b => b.nomre == Convert.ToDecimal(ucusNumarasi));
